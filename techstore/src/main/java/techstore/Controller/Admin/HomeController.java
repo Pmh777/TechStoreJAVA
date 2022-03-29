@@ -6,9 +6,10 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller(value = "homeOfAdminController")
 public class HomeController {
-@RequestMapping(value={"/admin"})
-public ModelAndView Index() {
-	ModelAndView mv = new ModelAndView("web/homePage");
-	return mv;
-}
+
+	@RequestMapping(value = { "/quan-tri/dashboard" })
+	public ModelAndView Dashboard() {
+		ModelAndView mv = new ModelAndView("admin/homePage");
+		return mv;
+	}
 }
