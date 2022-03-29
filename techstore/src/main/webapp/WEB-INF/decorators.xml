@@ -5,18 +5,12 @@
 	 </decorator>
 	 
 	 <decorator name="admin" page= "admin.jsp">
-	<pattern>/admin*</pattern>
+	<pattern>/quan-tri*</pattern>
 	 </decorator>
 	 <decorator name="login of admin" page= "">
-	<pattern>/admin/login</pattern>
-	 </decorator>
-	 <decorator name="Register of admin" page= "">
-	<pattern>/admin/register</pattern>
-	 </decorator>
-	 <decorator name="Register success" page= "">
-	<pattern>/admin/successregister</pattern>
+	<pattern>/quan-tri/dang-nhap</pattern>
 	 </decorator>
 	<decorator name="Error 404" page= "">
-	<pattern>/admin/404</pattern>
+	<pattern>/quan-tri/404</pattern>
 	 </decorator>
 </decorator>
